@@ -1,4 +1,4 @@
-# keepword - GitHub Pages で作る自分専用単語帳
+# wordkeeper - GitHub Pages で作る自分専用単語帳
 
 [![Build Status](https://github.com/yourusername/vocabulary-app/workflows/Build%20Vocabulary%20Data/badge.svg)](https://github.com/yourusername/vocabulary-app/actions)
 
