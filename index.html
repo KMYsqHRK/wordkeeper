@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>単語帳 | My Vocabulary App</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><i class="fas fa-book"></i> wordkeeper</h1>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="単語を検索...">
+        <button id="search-button"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="controls">
+      <div class="filter-container">
+        <select id="category-filter">
+          <option value="">すべてのカテゴリ</option>
+          <!-- カテゴリはJSで動的に追加 -->
+        </select>
+        <select id="sort-by">
+          <option value="date-desc">新しい順</option>
+          <option value="date-asc">古い順</option>
+          <option value="alpha-asc">アルファベット順</option>
+        </select>
+      </div>
+      <div class="view-controls">
+        <button id="list-view" class="active"><i class="fas fa-list"></i></button>
+        <button id="card-view"><i class="fas fa-th-large"></i></button>
+      </div>
+    </div>
+
+    <div id="stats">
+      <div class="stat-box">
+        <h3>合計</h3>
+        <p id="total-count">0</p>
+      </div>
+      <div class="stat-box">
+        <h3>今月</h3>
+        <p id="month-count">0</p>
+      </div>
+      <div class="stat-box">
+        <h3>最近の傾向</h3>
+        <div id="trend-chart" class="mini-chart"></div>
+      </div>
+    </div>
+
+    <div id="words-container" class="list-view">
+      <!-- 単語カードはJSで動的に追加 -->
+    </div>
+
+    <div id="no-results" style="display: none;">
+      <p>検索結果がありません。別のキーワードで試してください。</p>
+    </div>
+
+    <div class="pagination">
+      <button id="prev-page" disabled><i class="fas fa-chevron-left"></i> 前へ</button>
+      <span id="page-info">1 / 1</span>
+      <button id="next-page" disabled>次へ <i class="fas fa-chevron-right"></i></button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        <a href="https://github.com/yourusername/vocabulary-app" target="_blank">
+          <i class="fab fa-github"></i> GitHubリポジトリ
+        </a>
+      </p>
+      <p>新しい単語を追加するには、リポジトリに新しいマークダウンファイルを追加してください。</p>
+    </div>
+  </footer>
+
+  <!-- 単語詳細モーダル -->
+  <div id="word-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-word-content"></div>
+    </div>
+  </div>
+
+  <!-- テンプレートエリア - 単語カード -->
+  <template id="word-card-template">
+    <div class="word-card">
+      <div class="word-header">
+        <h2 class="word-title"></h2>
+        <span class="pronunciation"></span>
+        <span class="part-of-speech"></span>
+      </div>
+      <div class="word-meaning"></div>
+      <div class="word-categories"></div>
+      <div class="word-date"></div>
+      <button class="details-btn">詳細を見る</button>
+    </div>
+  </template>
+
+  <script src="js/app.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>
