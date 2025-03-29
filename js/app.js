@@ -365,3 +365,8 @@ const app = {
       document.getElementById('word-modal').style.display = 'block';
     }
   };
+
+// アプリの初期化（DOMContentLoadedイベントで実行）
+document.addEventListener('DOMContentLoaded', () => {
+  app.init();
+});
