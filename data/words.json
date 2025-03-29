@@ -1,21 +1,46 @@
 [
   {
     "word": "ephemeral",
-    "pronunciation": "//",
+    "pronunciation": "/ɪˈfɛm(ə)rəl/",
     "part_of_speech": "adjective",
     "meaning": "儚い、一時的な",
-    "categories": ["文学", "自然"],
+    "categories": [
+      "文学",
+      "自然"
+    ],
     "examples": [
       {
-        "text": "The beauty of cherry blossoms is ephemeral.",
-        "translation": "桜の美しさは儚い。"
+        "text": "",
+        "translation": ""
       },
       {
-        "text": "Social media fame can be ephemeral.",
-        "translation": "ソーシャルメディアでの人気は一時的なものになりがちだ。"
+        "text": "",
+        "translation": ""
       }
     ],
-    "note": "春の桜を見て覚えた単語。「エフェメラル」と発音するとなんとなく「儚い」感じがする。「ephemera」（短命なもの、はかないもの）という名詞形もある。",
+    "note": "春の桜を見て覚えた単語。「エフェメラル」と発音するとなんとなく「儚い」感じがする。",
     "date": "2025-03-29"
+  },
+  {
+    "word": "unfeasible",
+    "pronunciation": "//",
+    "part_of_speech": "adjective",
+    "meaning": "実行できない、実行不能な",
+    "categories": [
+      "文学",
+      "自然"
+    ],
+    "examples": [
+      {
+        "text": "",
+        "translation": ""
+      },
+      {
+        "text": "",
+        "translation": ""
+      }
+    ],
+    "note": "バターの序盤に副詞として出てきた。\n知らない言葉だ。",
+    "date": "2025-03-30"
   }
 ]
