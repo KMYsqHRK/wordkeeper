@@ -1,6 +1,6 @@
 # wordkeeper
 
-[![Build Status](https://github.com/yourusername/vocabulary-app/workflows/Build%20Vocabulary%20Data/badge.svg)](https://github.com/yourusername/vocabulary-app/actions)
+[![Build Status](https://github.com/KMYsqHRK/wordkeeper/workflows/Build%20Vocabulary%20Data/badge.svg)](https://github.com/KMYsqHRK/wordkeeper/actions)
 
 GitHub Pages を使った、シンプルで使いやすい英単語帳アプリです。知らなかった英単語を記録して、効率的に復習できます。なお、現在は個人用です。
 
