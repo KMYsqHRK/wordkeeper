@@ -7,6 +7,10 @@ on:
       - '_words/**'
   workflow_dispatch:
 
+# GitHub Actionsにリポジトリへの書き込み権限を明示的に付与
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
