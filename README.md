@@ -6,7 +6,8 @@ GitHub Pages を使った、シンプルで使いやすい英単語帳アプリ�
 
 ## デモ
 
-https://yourusername.github.io/vocabulary-app/
+https://KMYsqHRK.github.io/wordkeeper
+/
 
 ## 特徴
 
