@@ -1,5 +1,6 @@
 ---
 word: ephemeral
+pronunciation: /ɪˈfɛm(ə)rəl/
 part_of_speech: adjective
 meaning: 儚い、一時的な
 categories: [文学, 自然]
