@@ -45,8 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('DOMContentLoaded', () => {
     // GitHubの情報を設定（リポジトリURLを設定）
     const repoLink = document.querySelector('a[href*="github.com"]');
-    // ユーザー名は後で変更すること
-    repoLink.href = 'https://github.com/yourusername/vocabulary-app';
+    repoLink.href = 'https://github.com/KMYsqHRK/wordkeeper';
     
     // モバイルでのUX改善
     if (window.innerWidth <= 768) {
