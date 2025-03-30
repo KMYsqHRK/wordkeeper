@@ -81,24 +81,33 @@ files.forEach(file => {
     );
   }
   
-  // 例文の処理
-  const examples = [];
-  const exampleRegex = /- (.*?)(?:\n\s+- (.*))?/g;
-  let match;
+　// 例文の処理
+　const examples = [];
+
+if (wordContent) {
+  // 例文セクションを探す
+  const exampleSection = wordContent.match(/## 例文\n\n([\s\S]*?)(?:\n\n|$)/);
   
-  if (wordContent) {
-    // 例文セクションを探す
-    const exampleSection = wordContent.match(/## 例文\n\n([\s\S]*?)(?:\n\n|$)/);
+  if (exampleSection) {
+    const exampleContent = exampleSection[1];
+    // 例文を行ごとに分割
+    const lines = exampleContent.split('\n').filter(line => line.trim().startsWith('-'));
     
-    if (exampleSection) {
-      const exampleContent = exampleSection[1];
-      while ((match = exampleRegex.exec(exampleContent)) !== null) {
-        examples.push({
-          text: match[1].trim(),
-          translation: match[2] ? match[2].trim() : ''
-        });
-      }
+    // 2行ずつ処理（英文と和訳のペア）
+    for (let i = 0; i < lines.length; i += 2) {
+      const englishLine = lines[i];
+      const japaneseLine = lines[i + 1] || '';
+      
+      // ハイフンと空白を削除
+      const text = englishLine.replace(/^-\s*/, '').trim();
+      const translation = japaneseLine.replace(/^-\s*/, '').trim();
+      
+      examples.push({
+        text: text,
+        translation: translation
+      });
     }
+  }
     
     // メモセクションを探す
     const noteSection = wordContent.match(/## メモ\n\n([\s\S]*?)(?:\n\n|$)/);
