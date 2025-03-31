@@ -51,5 +51,22 @@
     ],
     "note": "バターの序盤に副詞として出てきた。\n知らない言葉だ。",
     "date": "2025-03-30"
+  },
+  {
+    "word": "entreat",
+    "pronunciation": "//",
+    "part_of_speech": "verb",
+    "meaning": "懇願する",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "middle-aged woman entreated customers to eat bite-size pieces of fried meat.",
+        "translation": "中年の女が一口大のカツレツを客にたべるようにせがんでいた。"
+      }
+    ],
+    "note": "",
+    "date": "2025-03-31"
   }
 ]
