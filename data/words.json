@@ -87,6 +87,23 @@
     "date": "2025-03-31"
   },
   {
+    "word": "hazy",
+    "pronunciation": "//",
+    "part_of_speech": "adjective",
+    "meaning": "かすみがかった",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "The book reminded me of hazy recollection.",
+        "translation": "その本は私にかすみがかった記憶を呼び起こした。"
+      }
+    ],
+    "note": "ちびくろさんぼの本を読んで昔の記憶を思い出している。\nこの本よく知らないんだよな。オモコロチャンネルでも少し話題に出ていたし気になる。",
+    "date": "2025-03-31"
+  },
+  {
     "word": "immaculate",
     "pronunciation": "//",
     "part_of_speech": "adjective",
