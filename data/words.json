@@ -121,6 +121,23 @@
     "date": "2025-03-31"
   },
   {
+    "word": "leaf through",
+    "pronunciation": "//",
+    "part_of_speech": "verb",
+    "meaning": "ざっと目を通す",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "She is leafing through the picture book.",
+        "translation": "彼女はその絵本にざっと目を通した。"
+      }
+    ],
+    "note": "葉っぱがヒラヒラするように紙をパラパラめくるイメージなのかしら。慈しみながらパラパラするシーンに合っている。",
+    "date": "2025-04-02"
+  },
+  {
     "word": "obstetrician",
     "pronunciation": "//",
     "part_of_speech": "noun",
