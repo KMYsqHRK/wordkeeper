@@ -1,22 +1,5 @@
 [
   {
-    "word": "slather",
-    "pronunciation": "//",
-    "part_of_speech": "verb",
-    "meaning": "たっぷり使う、塗る",
-    "categories": [
-      "文学"
-    ],
-    "examples": [
-      {
-        "text": "Their family slathered on hotcakes the butter which tigers melted into.",
-        "translation": "虎が溶けて出来たバターを家族はホットケーキにたっぷり塗った。"
-      }
-    ],
-    "note": "たっぷり塗る感じが大事っぽい。\nたっぷりという名詞としても使うようだ。",
-    "date": "2024-04-02"
-  },
-  {
     "word": "ephemeral",
     "pronunciation": "/ɪˈfɛm(ə)rəl/",
     "part_of_speech": "adjective",
@@ -169,6 +152,23 @@
       }
     ],
     "note": "例文が妙に生々しくなった。\nconceiveは考える的な意味もあるが、妊娠するというような意味もあるようだ。",
+    "date": "2025-04-02"
+  },
+  {
+    "word": "slather",
+    "pronunciation": "//",
+    "part_of_speech": "verb",
+    "meaning": "たっぷり使う、塗る",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "Their family slathered on hotcakes the butter which tigers melted into.",
+        "translation": "虎が溶けて出来たバターを家族はホットケーキにたっぷり塗った。"
+      }
+    ],
+    "note": "たっぷり塗る感じが大事っぽい。\nたっぷりという名詞としても使うようだ。",
     "date": "2025-04-02"
   }
 ]
