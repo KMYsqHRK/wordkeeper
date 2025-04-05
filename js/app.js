@@ -272,12 +272,12 @@ const app = {
           // テストモードの場合、意味を隠す
           meaningElement.classList.add('hidden-meaning');
           meaningElement.dataset.meaning = word.meaning;
-          meaningElement.textContent = '';
+          meaningElement.textContent = '???';
 
           // クリックで意味を表示するイベントを追加
           meaningElement.addEventListener('click', function() {
             if (this.classList.contains('revealed')) {
-              this.textContent = '';
+              this.textContent = '???';
               this.classList.remove('revealed');
             } else {
               this.textContent = this.dataset.meaning;
