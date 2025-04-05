@@ -4,7 +4,7 @@ const app = {
     categories: [],
     currentPage: 1,
     itemsPerPage: 12,
-    currentView: 'list',
+    currentView: 'card',
     currentFilter: {
       category: '',
       search: ''
