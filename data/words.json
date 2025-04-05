@@ -204,5 +204,39 @@
     ],
     "note": "コマンドライン警告で伝えられた。だからといってどうしろというのだ。",
     "date": "2025-04-04"
+  },
+  {
+    "word": "amiable",
+    "pronunciation": "",
+    "part_of_speech": "adjective",
+    "meaning": "感じの良い, 社交的な",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "His amiable smile and laid-back feature attract Reiko.",
+        "translation": "彼の感じが良い笑顔とのんびりとした性質が玲子をひきつけた"
+      }
+    ],
+    "note": "玲子と良助のなれそめエピソード。おまけにlaid-backも例文に入れた",
+    "date": "2025-04-05"
+  },
+  {
+    "word": "nonplussed",
+    "pronunciation": "",
+    "part_of_speech": "adjective",
+    "meaning": "困惑した、途方に暮れた",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "Reiko pursued Ryosuke so intentially that he was initially nonplussed.",
+        "translation": "玲子は良助に猛アタックしたので、彼は困惑した"
+      }
+    ],
+    "note": "えぇ。。。という感じの困惑具合を表すようだ。出会いってそういうものな気がするね。",
+    "date": "2025-04-05"
   }
 ]
