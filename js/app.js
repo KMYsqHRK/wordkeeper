@@ -5,6 +5,7 @@ const app = {
     currentPage: 1,
     itemsPerPage: 12,
     currentView: 'card',
+    testMode: false, // 新しく追加：テストモードのフラグ
     currentFilter: {
       category: '',
       search: ''
@@ -82,9 +83,9 @@ const app = {
         this.renderWords();
       });
   
-      // ビュー切り替え
-      document.getElementById('list-view').addEventListener('click', () => this.changeView('list'));
-      document.getElementById('card-view').addEventListener('click', () => this.changeView('card'));
+      // テストモード切り替え
+      document.getElementById('test-mode').addEventListener('click', () => this.toggleTestMode());
+      document.getElementById('card-view').addEventListener('click', () => this.toggleTestMode(false));
   
       // ページネーション
       document.getElementById('prev-page').addEventListener('click', () => this.changePage(-1));
@@ -105,20 +106,16 @@ const app = {
     },
   
     // ビュー切り替え
-    changeView(view) {
-      this.currentView = view;
+    toggleTestMode(enable = true) {
+      this.testMode = enable;
       
       // アクティブクラスの切り替え
-      document.getElementById('list-view').classList.toggle('active', view === 'list');
-      document.getElementById('card-view').classList.toggle('active', view === 'card');
-      
-      // コンテナのクラス切り替え
-      const container = document.getElementById('words-container');
-      container.className = view + '-view';
+      document.getElementById('test-mode').classList.toggle('active', enable);
+      document.getElementById('card-view').classList.toggle('active', !enable);
       
       this.renderWords();
     },
-  
+
     // ページの切り替え
     changePage(direction) {
       this.currentPage += direction;
@@ -268,7 +265,29 @@ const app = {
         clone.querySelector('.word-title').textContent = word.word;
         clone.querySelector('.pronunciation').textContent = word.pronunciation || '';
         clone.querySelector('.part-of-speech').textContent = word.part_of_speech || '';
-        clone.querySelector('.word-meaning').textContent = word.meaning;
+        
+        // 意味の設定（テストモードの場合は隠す）
+        const meaningElement = clone.querySelector('.word-meaning');
+        if (this.testMode) {
+          // テストモードの場合、意味を隠す
+          meaningElement.classList.add('hidden-meaning');
+          meaningElement.dataset.meaning = word.meaning;
+          meaningElement.textContent = '';
+
+          // クリックで意味を表示するイベントを追加
+          meaningElement.addEventListener('click', function() {
+            if (this.classList.contains('revealed')) {
+              this.textContent = '';
+              this.classList.remove('revealed');
+            } else {
+              this.textContent = this.dataset.meaning;
+              this.classList.add('revealed');
+            }
+          });
+        } else {
+          // 通常モードの場合、通常通り意味を表示
+          meaningElement.textContent = word.meaning;
+        }
         
         // カテゴリタグの設定
         const categoriesContainer = clone.querySelector('.word-categories');

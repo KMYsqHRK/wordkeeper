@@ -166,20 +166,28 @@
     margin-bottom: 30px;
   }
   
-  .list-view .word-card {
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s, box-shadow 0.2s;
+  /* テストモード用のスタイル */
+  .hidden-meaning {
+    background-color: var(--light-gray);
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--gray-color);
+    transition: all 0.2s ease;
   }
-  
-  .list-view .word-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  .hidden-meaning:hover {
+    background-color: var(--primary-color);
+    color: white;
   }
-  
+
+  .hidden-meaning.revealed {
+    background-color: var(--success-color);
+    color: white;
+  }
+
   .card-view {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
