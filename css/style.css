@@ -18,7 +18,7 @@
   
   body {
     font-family: var(--font-main);
-    line-height: 1.6;
+    line-height: 1.5;
     background-color: #f5f7fb;
     color: var(--dark-color);
   }
@@ -221,9 +221,9 @@
   .part-of-speech {
     background-color: var(--light-gray);
     color: var(--gray-color);
-    padding: 2px 8px;
+    padding: 2px 7px;
     border-radius: 12px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   
   .word-meaning {
@@ -241,14 +241,14 @@
   .category-tag {
     background-color: rgba(58, 134, 255, 0.1);
     color: var(--primary-color);
-    padding: 2px 8px;
+    padding: 2px 7px;
     border-radius: 12px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   
   .word-date {
     color: var(--gray-color);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-bottom: 15px;
   }
   
