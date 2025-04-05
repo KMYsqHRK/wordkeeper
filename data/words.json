@@ -187,5 +187,22 @@
     ],
     "note": "この文章、英語で書くとなんだか身に染みるな。\n身の振り方を考えた方が良いかもね。",
     "date": "2025-04-02"
+  },
+  {
+    "word": "deprecated",
+    "pronunciation": "",
+    "part_of_speech": "adjective",
+    "meaning": "廃止されうる、サポートがなくなりうる",
+    "categories": [
+      "テクノロジー"
+    ],
+    "examples": [
+      {
+        "text": "This service is deprecated in two monthes.",
+        "translation": "このサービスは一ヶ月後には停止する。"
+      }
+    ],
+    "note": "コマンドライン警告で伝えられた。だからといってどうしろというのだ。",
+    "date": "2025-04-04"
   }
 ]
