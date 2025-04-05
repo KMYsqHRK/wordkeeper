@@ -3,7 +3,7 @@ const app = {
     words: [],
     categories: [],
     currentPage: 1,
-    itemsPerPage: 10,
+    itemsPerPage: 12,
     currentView: 'list',
     currentFilter: {
       category: '',

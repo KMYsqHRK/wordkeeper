@@ -49,6 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // モバイルでのUX改善
     if (window.innerWidth <= 768) {
-      app.itemsPerPage = 5; // モバイルではページあたりの単語数を減らす
+      app.itemsPerPage = 6; // モバイルではページあたりの単語数を減らす
     }
   });
