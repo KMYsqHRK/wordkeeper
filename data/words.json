@@ -306,5 +306,40 @@
     ],
     "note": "里香が良助を見てうらやましがるシーン。友達が結婚していって会いにくくなるのは寂しそうだ。",
     "date": "2025-04-07"
+  },
+  {
+    "word": "bureaucrat",
+    "pronunciation": "/ビューロクラット/",
+    "part_of_speech": "noun",
+    "meaning": "役人、公務員",
+    "categories": [
+      "文学",
+      "ビジネス"
+    ],
+    "examples": [
+      {
+        "text": "Rika sometimes entertain bureaucrat for scoop.",
+        "translation": "里香は時折スクープのためにお役人さんを楽しませる。"
+      }
+    ],
+    "note": "市民が若干馬鹿にして役人のことをいう言葉らしい。\nフランス由来っぽい。\nentertainって意味深すぎる。",
+    "date": "2025-04-08"
+  },
+  {
+    "word": "indifferent",
+    "pronunciation": "",
+    "part_of_speech": "adjective",
+    "meaning": "無関心な",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "Rika is indifferent to food and fashion.",
+        "translation": "里香は食やファッションに無関心である。"
+      }
+    ],
+    "note": "この単語忘れてるとかやば。\nindifferent to覚えておこう。",
+    "date": "2025-04-08"
   }
 ]
