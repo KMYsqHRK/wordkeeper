@@ -238,5 +238,73 @@
     ],
     "note": "えぇ。。。という感じの困惑具合を表すようだ。出会いってそういうものな気がするね。",
     "date": "2025-04-05"
+  },
+  {
+    "word": "bestow",
+    "pronunciation": "/bistou/",
+    "part_of_speech": "verb",
+    "meaning": "与える",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "Such women had bestowed the power upon their family.",
+        "translation": "そのような女性たちが家族に力を与えてきた。"
+      }
+    ],
+    "note": "妻が家族にエネルギーを与えているというような描写。もちろん妻が家政婦のように扱われることへの作者の反抗心が漏れ出ているシーンである。",
+    "date": "2025-04-07"
+  },
+  {
+    "word": "deem",
+    "pronunciation": "",
+    "part_of_speech": "verb",
+    "meaning": "みなす、考える",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "She deemed the area bereft of culture.",
+        "translation": "彼女はこの地区を文化が奪われた場所だと考えていた。"
+      }
+    ],
+    "note": "deemっていう言葉を初めて知った。あと、bereave(奪う)の過去形はbereftらしい。",
+    "date": "2025-04-07"
+  },
+  {
+    "word": "fertelity",
+    "pronunciation": "",
+    "part_of_speech": "noun",
+    "meaning": "繁殖力、肥沃",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "Oyster is supposed to be good for fertility.",
+        "translation": "カキは精力増強に良いと考えられている"
+      }
+    ],
+    "note": "またまた生々しい系例文。本文だとカキは精力増強に良いって聞いたけど?的に出てきて性格が悪い。",
+    "date": "2025-04-07"
+  },
+  {
+    "word": "spouse",
+    "pronunciation": "",
+    "part_of_speech": "noun",
+    "meaning": "配偶者",
+    "categories": [
+      "文学"
+    ],
+    "examples": [
+      {
+        "text": "Rika had jealous feeling for Reiko's spouse.",
+        "translation": "里香は玲子の配偶者に嫉妬を抱いた"
+      }
+    ],
+    "note": "里香が良助を見てうらやましがるシーン。友達が結婚していって会いにくくなるのは寂しそうだ。",
+    "date": "2025-04-07"
   }
 ]
